@@ -1,0 +1,54 @@
+.logIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: #a9e6f5;
+  padding-top: 120px;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.field > .MuiSvgIcon-root {
+  padding: 20px;
+}
+
+.control > input {
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: var(--twitter-color);
+  background-color: var(--twitter-color);
+   color:white;
+  font-size: 18px;
+}
+.control > input:hover{
+   opacity: 80%;
+}
+
+.login__btn {
+  border: none !important;
+  color: whitesmoke !important;
+  border-radius: 20px !important;
+  padding: 10px 35px !important;
+  background-color: var(--twitter-color) !important;
+}
+.login__btn:hover{
+  opacity: 80% !important;
+}
+::placeholder{
+  color: var(--twitter-background);
+  font-size: 15px;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

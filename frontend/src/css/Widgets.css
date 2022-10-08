@@ -1,0 +1,117 @@
+.widgets {
+  flex: 0.2;
+}
+
+.widgets__input {
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.widgets__input > input {
+  border: none;
+  background-color: var(--twitter-background);
+}
+.widgets__users,
+.widgets__trand {
+  margin-right: 10px;
+  margin-left: 20px;
+  border-radius: 20px;
+  background-color: var(--twitter-background);
+}
+
+.widgets__trand{
+  margin-bottom: 15px;
+}
+
+.widget__users-header,
+.widget__trand-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.widgets__users-items{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.widgets__users-item{
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 8px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.widgets__users-item:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.widgets_trand-item {
+  border-bottom: 1px solid black;
+}
+
+.widgets_trand-item,
+.widgets_trand-item-last {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+::placeholder {
+  color: grey;
+}
+
+.widgets__users-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.widgets__users-btn{
+  padding: 7px 7px !important;
+  border: 2px solid var(--twitter-color) !important;
+  border-radius: 30px !important;
+  font-weight: 700 !important;
+  font-size: 8px !important;
+}
+
+.widgets__users-username,
+.widgets__users-name{
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.widgets__users-avatar{
+  height: 30px !important;
+  width: 30px !important;
+}
+
+.widgets__users-name{
+  margin-bottom: -8px;
+}
+
+.widgets__users-info{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 5px;
+}
+
+.widgets__users-avatar{
+  margin-right: 2px;
+}

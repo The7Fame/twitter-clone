@@ -1,0 +1,146 @@
+.tweetBox {
+  padding-bottom: 10px;
+  border-bottom: 8px solid var(--twitter-background);
+  padding-right: 10px;
+}
+
+.tweetBox > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweetBox__input {
+  padding: 20px;
+  display: flex;
+}
+
+.tweetBox__input > input {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+  border: none;
+  padding-bottom: 80px;
+  border-bottom: 1px solid var(--twitter-background);
+}
+
+.tweetBox__tweet-btn {
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 550 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  width: 90px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: auto !important;
+}
+
+.tweetBox__tweet-btn-notactive {
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  opacity: 50%;
+  color: white !important;
+  font-weight: 550 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  width: 90px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: auto !important;
+  cursor: not-allowed !important;
+}
+.tweetBox__footer-item > label {
+  cursor: pointer;
+}
+
+.tweetBox__image {
+  border: none;
+  padding: 10px;
+}
+
+label > svg {
+  cursor: pointer;
+}
+.tweetBox__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 20px;
+}
+.tweetBox__tweet-btn:hover {
+  opacity: 70%;
+  transition: opacity 40ms ease-in-out;
+}
+
+.tweetBox__footer-list {
+  display: flex;
+}
+
+.tweetBox__footer-item {
+  cursor: pointer;
+}
+
+.tweetBox__footer-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.tweetBox__btn {
+  display: flex;
+}
+
+.tweetBox__btn-upload {
+  color: black !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+}
+
+.tweetBox__btn-reset {
+  color: black !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+}
+
+.tweetBox__btn-upload:hover {
+  color: var(--twitter-color) !important;
+  background-color: inherit !important;
+  transition: color 40ms ease-in-out;
+}
+
+.tweetBox__btn-reset:hover {
+  color: rgb(195, 43, 43) !important;
+  background-color: inherit !important;
+  transition: color 40ms ease-in-out;
+}
+
+.tweetBox__footer-list {
+  background-color: var(--twitter-color);
+  border-radius: 25px;
+  padding: 6px 8px;
+}
+
+.tweetBox__footer-item > svg {
+  color: white !important;
+}
+
+.tweetBox__imageUpload > svg {
+  color: white !important;
+}
+
+.tweetBox__imageUpload > svg:hover {
+  color: black !important;
+  transition: color 40ms ease-in-out;
+}
+.tweetBox__imageUpload-dis > svg {
+  color: white !important;
+}
+
+.tweetBox__imageUpload-dis > svg:hover {
+  cursor: not-allowed !important;
+}
+
+.tweetBox__footer-item > svg:hover {
+  color: black !important;
+  transition: color 40ms ease-in-out;
+}
