@@ -1,0 +1,438 @@
+|2023-12-19T15:38:24 | INFO | 172.19.0.1:53214 - "GET /docs HTTP/1.1" 200|
+|2023-12-19T15:38:25 | INFO | 172.19.0.1:53214 - "GET /openapi.json HTTP/1.1" 200|
+|2023-12-19T15:38:26 | INFO | 172.19.0.5:34858 - "GET /api/tweets HTTP/1.1" 401|
+|2023-12-19T15:38:26 | INFO | 172.19.0.5:34860 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T15:38:26 | INFO | 172.19.0.5:34876 - "GET /api/users HTTP/1.1" 401|
+|2023-12-19T15:38:26 | INFO | 172.19.0.5:34880 - "GET /api HTTP/1.1" 200|
+|2023-12-19T15:38:26 | INFO | 172.19.0.5:34894 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T15:38:26 | INFO | 172.19.0.5:34900 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T15:38:26 | INFO | 172.19.0.5:34904 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T15:38:34 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:34 | INFO | verify password|
+|2023-12-19T15:38:34 | WARNING | (trapped) error reading bcrypt version|
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+|2023-12-19T15:38:34 | INFO | created token|
+|2023-12-19T15:38:34 | INFO | 172.19.0.5:39428 - "POST /api/token HTTP/1.1" 200|
+|2023-12-19T15:38:34 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:34 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:34 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:34 | INFO | get users from the database|
+|2023-12-19T15:38:34 | INFO | 172.19.0.5:39460 - "GET /api/users HTTP/1.1" 200|
+|2023-12-19T15:38:34 | INFO | user 3 no followers|
+|2023-12-19T15:38:34 | INFO | user 3 no followings|
+|2023-12-19T15:38:34 | INFO | 172.19.0.5:39448 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:34 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:34 | INFO | user 3 no followers|
+|2023-12-19T15:38:34 | INFO | user 3 no followings|
+|2023-12-19T15:38:34 | INFO | 172.19.0.5:39470 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:34 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:34 | INFO | user 3 no followers|
+|2023-12-19T15:38:34 | INFO | user 3 no followings|
+|2023-12-19T15:38:34 | INFO | 172.19.0.5:39472 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:35 | INFO | no tweets|
+|2023-12-19T15:38:35 | INFO | 172.19.0.5:39432 - "GET /api/tweets HTTP/1.1" 200|
+|2023-12-19T15:38:39 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:39 | INFO | user 3 follow user1|
+|2023-12-19T15:38:39 | INFO | 172.19.0.5:37318 - "POST /api/users/1/follow HTTP/1.1" 200|
+|2023-12-19T15:38:39 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:39 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:39 | INFO | user 3 no followers|
+|2023-12-19T15:38:39 | INFO | get users from the database|
+|2023-12-19T15:38:39 | INFO | 172.19.0.5:37326 - "GET /api/users HTTP/1.1" 200|
+|2023-12-19T15:38:39 | INFO | user 3 followings|
+|2023-12-19T15:38:39 | INFO | 172.19.0.5:37320 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:39 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:39 | INFO | 172.19.0.5:37360 - "GET /api HTTP/1.1" 200|
+|2023-12-19T15:38:39 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:39 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:39 | INFO | get users from the database|
+|2023-12-19T15:38:39 | INFO | 172.19.0.5:37348 - "GET /api/users HTTP/1.1" 200|
+|2023-12-19T15:38:39 | INFO | user 3 no followers|
+|2023-12-19T15:38:39 | INFO | user 3 followings|
+|2023-12-19T15:38:39 | INFO | 172.19.0.5:37332 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:39 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:39 | INFO | user 3 no followers|
+|2023-12-19T15:38:39 | INFO | user 3 followings|
+|2023-12-19T15:38:39 | INFO | 172.19.0.5:37364 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:39 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:39 | INFO | user 3 no followers|
+|2023-12-19T15:38:39 | INFO | user 3 followings|
+|2023-12-19T15:38:39 | INFO | 172.19.0.5:37372 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:39 | INFO | no tweets|
+|2023-12-19T15:38:39 | INFO | 172.19.0.5:37330 - "GET /api/tweets HTTP/1.1" 200|
+|2023-12-19T15:38:40 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:40 | INFO | user 3 follow user2|
+|2023-12-19T15:38:40 | INFO | 172.19.0.5:37386 - "POST /api/users/2/follow HTTP/1.1" 200|
+|2023-12-19T15:38:40 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:40 | INFO | user 3 no followers|
+|2023-12-19T15:38:40 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:40 | INFO | get users from the database|
+|2023-12-19T15:38:40 | INFO | 172.19.0.5:37406 - "GET /api/users HTTP/1.1" 200|
+|2023-12-19T15:38:40 | INFO | user 3 followings|
+|2023-12-19T15:38:40 | INFO | 172.19.0.5:37390 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:40 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:40 | INFO | 172.19.0.5:37438 - "GET /api HTTP/1.1" 200|
+|2023-12-19T15:38:40 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:40 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:40 | INFO | user 3 no followers|
+|2023-12-19T15:38:40 | INFO | get users from the database|
+|2023-12-19T15:38:40 | INFO | 172.19.0.5:37432 - "GET /api/users HTTP/1.1" 200|
+|2023-12-19T15:38:40 | INFO | user 3 followings|
+|2023-12-19T15:38:40 | INFO | 172.19.0.5:37416 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:40 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:40 | INFO | user 3 no followers|
+|2023-12-19T15:38:41 | INFO | user 3 followings|
+|2023-12-19T15:38:41 | INFO | 172.19.0.5:37444 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:41 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:41 | INFO | user 3 no followers|
+|2023-12-19T15:38:41 | INFO | user 3 followings|
+|2023-12-19T15:38:41 | INFO | 172.19.0.5:37460 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:41 | INFO | no tweets|
+|2023-12-19T15:38:41 | INFO | 172.19.0.5:37412 - "GET /api/tweets HTTP/1.1" 200|
+|2023-12-19T15:38:45 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:45 | INFO | 172.19.0.5:37486 - "GET /api HTTP/1.1" 200|
+|2023-12-19T15:38:45 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:45 | INFO | get users from the database|
+|2023-12-19T15:38:45 | INFO | 172.19.0.5:37480 - "GET /api/users HTTP/1.1" 200|
+|2023-12-19T15:38:45 | INFO | user 3 no followers|
+|2023-12-19T15:38:45 | INFO | user 3 followings|
+|2023-12-19T15:38:45 | INFO | 172.19.0.5:37476 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:45 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:45 | INFO | user 3 no followers|
+|2023-12-19T15:38:45 | INFO | user 3 followings|
+|2023-12-19T15:38:45 | INFO | 172.19.0.5:37494 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:45 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:45 | INFO | user 3 no followers|
+|2023-12-19T15:38:45 | INFO | user 3 followings|
+|2023-12-19T15:38:45 | INFO | 172.19.0.5:37504 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:47 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:47 | INFO | user 3 no followers|
+|2023-12-19T15:38:47 | INFO | user 3 followings|
+|2023-12-19T15:38:47 | INFO | 172.19.0.5:37520 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:48 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:48 | INFO | user 3 no followers|
+|2023-12-19T15:38:48 | INFO | user 3 followings|
+|2023-12-19T15:38:48 | INFO | 172.19.0.5:55156 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:49 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:49 | INFO | user 3 unfollow user 1|
+|2023-12-19T15:38:49 | INFO | 172.19.0.5:55166 - "DELETE /api/users/1/follow HTTP/1.1" 200|
+|2023-12-19T15:38:50 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:50 | INFO | user 3 no followers|
+|2023-12-19T15:38:50 | INFO | user 3 followings|
+|2023-12-19T15:38:50 | INFO | 172.19.0.5:55174 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:50 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:50 | INFO | user 3 unfollow user 2|
+|2023-12-19T15:38:50 | INFO | 172.19.0.5:55178 - "DELETE /api/users/2/follow HTTP/1.1" 200|
+|2023-12-19T15:38:50 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:50 | INFO | user 3 no followers|
+|2023-12-19T15:38:50 | INFO | user 3 no followings|
+|2023-12-19T15:38:50 | INFO | 172.19.0.5:55194 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:51 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:51 | INFO | 172.19.0.5:55216 - "GET /api HTTP/1.1" 200|
+|2023-12-19T15:38:51 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:51 | INFO | get users from the database|
+|2023-12-19T15:38:51 | INFO | 172.19.0.5:55214 - "GET /api/users HTTP/1.1" 200|
+|2023-12-19T15:38:51 | INFO | user 3 no followers|
+|2023-12-19T15:38:51 | INFO | user 3 no followings|
+|2023-12-19T15:38:51 | INFO | 172.19.0.5:55210 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:51 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:51 | INFO | user 3 no followers|
+|2023-12-19T15:38:51 | INFO | user 3 no followings|
+|2023-12-19T15:38:51 | INFO | 172.19.0.5:55228 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:51 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:51 | INFO | user 3 no followers|
+|2023-12-19T15:38:51 | INFO | user 3 no followings|
+|2023-12-19T15:38:51 | INFO | 172.19.0.5:55230 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:55 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:55 | INFO | 172.19.0.5:55270 - "GET /api HTTP/1.1" 200|
+|2023-12-19T15:38:55 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:55 | INFO | no tweets|
+|2023-12-19T15:38:55 | INFO | 172.19.0.5:55232 - "GET /api/tweets HTTP/1.1" 200|
+|2023-12-19T15:38:55 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:55 | INFO | user 3 no followers|
+|2023-12-19T15:38:55 | INFO | get users from the database|
+|2023-12-19T15:38:55 | INFO | 172.19.0.5:55258 - "GET /api/users HTTP/1.1" 200|
+|2023-12-19T15:38:55 | INFO | user 3 no followings|
+|2023-12-19T15:38:55 | INFO | 172.19.0.5:55248 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:55 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:55 | INFO | user 3 no followers|
+|2023-12-19T15:38:55 | INFO | user 3 no followings|
+|2023-12-19T15:38:55 | INFO | 172.19.0.5:55280 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:38:55 | INFO | get user johnsnow from the database|
+|2023-12-19T15:38:55 | INFO | user 3 no followers|
+|2023-12-19T15:38:55 | INFO | user 3 no followings|
+|2023-12-19T15:38:55 | INFO | 172.19.0.5:55292 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:39:11 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:11 | INFO | added file Maksim Naumovich - CV, Python Trainee(1).jpg|
+|2023-12-19T15:39:11 | INFO | 172.19.0.5:55378 - "POST /api/medias HTTP/1.1" 200|
+|2023-12-19T15:39:13 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:13 | INFO | user 3 created tweet|
+|2023-12-19T15:39:13 | INFO | 172.19.0.5:55384 - "POST /api/tweets HTTP/1.1" 200|
+|2023-12-19T15:39:13 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:13 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:13 | INFO | 172.19.0.5:55416 - "GET /api HTTP/1.1" 200|
+|2023-12-19T15:39:13 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:13 | INFO | user 3 no followers|
+|2023-12-19T15:39:13 | INFO | get users from the database|
+|2023-12-19T15:39:13 | INFO | 172.19.0.5:55412 - "GET /api/users HTTP/1.1" 200|
+|2023-12-19T15:39:13 | INFO | user 3 no followings|
+|2023-12-19T15:39:13 | INFO | 172.19.0.5:55410 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:39:13 | INFO | all tweets|
+|2023-12-19T15:39:13 | INFO | 172.19.0.5:55396 - "GET /api/tweets HTTP/1.1" 200|
+|2023-12-19T15:39:13 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:13 | INFO | user 3 no followers|
+|2023-12-19T15:39:13 | INFO | user 3 no followings|
+|2023-12-19T15:39:13 | INFO | 172.19.0.5:55418 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:39:13 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:13 | INFO | user 3 no followers|
+|2023-12-19T15:39:13 | INFO | user 3 no followings|
+|2023-12-19T15:39:13 | INFO | 172.19.0.5:55420 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:39:28 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:28 | INFO | user 3 liked tweet 1|
+|2023-12-19T15:39:28 | INFO | 172.19.0.5:38802 - "POST /api/tweet/1/likes HTTP/1.1" 200|
+|2023-12-19T15:39:28 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:28 | INFO | 172.19.0.5:38848 - "GET /api HTTP/1.1" 200|
+|2023-12-19T15:39:28 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:28 | INFO | user 3 no followers|
+|2023-12-19T15:39:28 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:28 | INFO | get users from the database|
+|2023-12-19T15:39:28 | INFO | 172.19.0.5:38836 - "GET /api/users HTTP/1.1" 200|
+|2023-12-19T15:39:28 | INFO | user 3 no followings|
+|2023-12-19T15:39:28 | INFO | 172.19.0.5:38816 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:39:28 | INFO | user info 3|
+|2023-12-19T15:39:28 | INFO | all tweets|
+|2023-12-19T15:39:28 | INFO | 172.19.0.5:38828 - "GET /api/tweets HTTP/1.1" 200|
+|2023-12-19T15:39:28 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:28 | INFO | user 3 no followers|
+|2023-12-19T15:39:28 | INFO | user 3 no followings|
+|2023-12-19T15:39:28 | INFO | 172.19.0.5:38850 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:39:28 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:28 | INFO | user 3 no followers|
+|2023-12-19T15:39:28 | INFO | user 3 no followings|
+|2023-12-19T15:39:28 | INFO | 172.19.0.5:38852 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:39:31 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:31 | INFO | user 3 has been deleted own tweet 1|
+|2023-12-19T15:39:31 | INFO | 172.19.0.5:38856 - "DELETE /api/tweet/1 HTTP/1.1" 200|
+|2023-12-19T15:39:31 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:31 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:31 | INFO | no tweets|
+|2023-12-19T15:39:31 | INFO | 172.19.0.5:38862 - "GET /api/tweets HTTP/1.1" 200|
+|2023-12-19T15:39:31 | INFO | 172.19.0.5:38890 - "GET /api HTTP/1.1" 200|
+|2023-12-19T15:39:31 | INFO | user 3 no followers|
+|2023-12-19T15:39:31 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:31 | INFO | get users from the database|
+|2023-12-19T15:39:31 | INFO | 172.19.0.5:38880 - "GET /api/users HTTP/1.1" 200|
+|2023-12-19T15:39:31 | INFO | user 3 no followings|
+|2023-12-19T15:39:31 | INFO | 172.19.0.5:38874 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:39:31 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:31 | INFO | user 3 no followers|
+|2023-12-19T15:39:31 | INFO | user 3 no followings|
+|2023-12-19T15:39:31 | INFO | 172.19.0.5:38906 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:39:31 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:31 | INFO | user 3 no followers|
+|2023-12-19T15:39:31 | INFO | user 3 no followings|
+|2023-12-19T15:39:31 | INFO | 172.19.0.5:38914 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:39:32 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:32 | INFO | 172.19.0.5:38948 - "GET /api HTTP/1.1" 200|
+|2023-12-19T15:39:32 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:32 | INFO | no tweets|
+|2023-12-19T15:39:32 | INFO | 172.19.0.5:38918 - "GET /api/tweets HTTP/1.1" 200|
+|2023-12-19T15:39:32 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:32 | INFO | user 3 no followers|
+|2023-12-19T15:39:32 | INFO | get users from the database|
+|2023-12-19T15:39:32 | INFO | 172.19.0.5:38932 - "GET /api/users HTTP/1.1" 200|
+|2023-12-19T15:39:32 | INFO | user 3 no followings|
+|2023-12-19T15:39:32 | INFO | 172.19.0.5:38924 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:39:32 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:32 | INFO | user 3 no followers|
+|2023-12-19T15:39:32 | INFO | user 3 no followings|
+|2023-12-19T15:39:32 | INFO | 172.19.0.5:38962 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:39:32 | INFO | get user johnsnow from the database|
+|2023-12-19T15:39:32 | INFO | user 3 no followers|
+|2023-12-19T15:39:32 | INFO | user 3 no followings|
+|2023-12-19T15:39:32 | INFO | 172.19.0.5:38968 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:39:36 | INFO | 172.19.0.5:38976 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T15:40:07 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:07 | INFO | verify password|
+|2023-12-19T15:40:08 | INFO | created token|
+|2023-12-19T15:40:08 | INFO | 172.19.0.5:43688 - "POST /api/token HTTP/1.1" 200|
+|2023-12-19T15:40:08 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:08 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:08 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:08 | INFO | no tweets|
+|2023-12-19T15:40:08 | INFO | 172.19.0.5:43718 - "GET /api/tweets HTTP/1.1" 200|
+|2023-12-19T15:40:08 | INFO | user 3 no followers|
+|2023-12-19T15:40:08 | INFO | get users from the database|
+|2023-12-19T15:40:08 | INFO | 172.19.0.5:43730 - "GET /api/users HTTP/1.1" 200|
+|2023-12-19T15:40:08 | INFO | user 3 no followings|
+|2023-12-19T15:40:08 | INFO | 172.19.0.5:43704 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:40:08 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:08 | INFO | user 3 no followers|
+|2023-12-19T15:40:08 | INFO | user 3 no followings|
+|2023-12-19T15:40:08 | INFO | 172.19.0.5:43738 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:40:08 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:08 | INFO | user 3 no followers|
+|2023-12-19T15:40:08 | INFO | user 3 no followings|
+|2023-12-19T15:40:08 | INFO | 172.19.0.5:43748 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:40:28 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:28 | INFO | user 3 created tweet|
+|2023-12-19T15:40:28 | INFO | 172.19.0.5:46682 - "POST /api/tweets HTTP/1.1" 200|
+|2023-12-19T15:40:29 | INFO | 172.19.0.5:46712 - "GET /api HTTP/1.1" 200|
+|2023-12-19T15:40:29 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:29 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:29 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:29 | INFO | user 3 no followers|
+|2023-12-19T15:40:29 | INFO | get users from the database|
+|2023-12-19T15:40:29 | INFO | 172.19.0.5:46710 - "GET /api/users HTTP/1.1" 200|
+|2023-12-19T15:40:29 | INFO | user 3 no followings|
+|2023-12-19T15:40:29 | INFO | 172.19.0.5:46696 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:40:29 | INFO | all tweets|
+|2023-12-19T15:40:29 | INFO | 172.19.0.5:46692 - "GET /api/tweets HTTP/1.1" 200|
+|2023-12-19T15:40:29 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:29 | INFO | user 3 no followers|
+|2023-12-19T15:40:29 | INFO | user 3 no followings|
+|2023-12-19T15:40:29 | INFO | 172.19.0.5:46728 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:40:29 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:29 | INFO | user 3 no followers|
+|2023-12-19T15:40:29 | INFO | user 3 no followings|
+|2023-12-19T15:40:29 | INFO | 172.19.0.5:46732 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:40:30 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:30 | INFO | user 3 liked tweet 2|
+|2023-12-19T15:40:30 | INFO | 172.19.0.5:46740 - "POST /api/tweet/2/likes HTTP/1.1" 200|
+|2023-12-19T15:40:30 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:30 | INFO | 172.19.0.5:46788 - "GET /api HTTP/1.1" 200|
+|2023-12-19T15:40:30 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:30 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:30 | INFO | user 3 no followers|
+|2023-12-19T15:40:30 | INFO | get users from the database|
+|2023-12-19T15:40:30 | INFO | 172.19.0.5:46780 - "GET /api/users HTTP/1.1" 200|
+|2023-12-19T15:40:30 | INFO | user 3 no followings|
+|2023-12-19T15:40:30 | INFO | 172.19.0.5:46764 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:40:30 | INFO | user info 3|
+|2023-12-19T15:40:30 | INFO | all tweets|
+|2023-12-19T15:40:30 | INFO | 172.19.0.5:46752 - "GET /api/tweets HTTP/1.1" 200|
+|2023-12-19T15:40:30 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:30 | INFO | user 3 no followers|
+|2023-12-19T15:40:30 | INFO | user 3 no followings|
+|2023-12-19T15:40:30 | INFO | 172.19.0.5:46800 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:40:30 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:30 | INFO | user 3 no followers|
+|2023-12-19T15:40:30 | INFO | user 3 no followings|
+|2023-12-19T15:40:30 | INFO | 172.19.0.5:46806 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:40:37 | INFO | 172.19.0.5:46818 - "GET /main.30ffbf556f5b4a0c81b8.hot-update.json HTTP/1.1" 404|
+|2023-12-19T15:40:37 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:37 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:37 | INFO | 172.19.0.5:55630 - "GET /api HTTP/1.1" 200|
+|2023-12-19T15:40:37 | INFO | user 3 no followers|
+|2023-12-19T15:40:37 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:37 | INFO | get users from the database|
+|2023-12-19T15:40:37 | INFO | 172.19.0.5:55620 - "GET /api/users HTTP/1.1" 200|
+|2023-12-19T15:40:37 | INFO | user 3 no followings|
+|2023-12-19T15:40:37 | INFO | 172.19.0.5:55612 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:40:37 | INFO | user info 3|
+|2023-12-19T15:40:37 | INFO | all tweets|
+|2023-12-19T15:40:37 | INFO | 172.19.0.5:55606 - "GET /api/tweets HTTP/1.1" 200|
+|2023-12-19T15:40:37 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:37 | INFO | user 3 no followers|
+|2023-12-19T15:40:37 | INFO | user 3 no followings|
+|2023-12-19T15:40:37 | INFO | 172.19.0.5:55634 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:40:37 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:37 | INFO | user 3 no followers|
+|2023-12-19T15:40:37 | INFO | user 3 no followings|
+|2023-12-19T15:40:37 | INFO | 172.19.0.5:55640 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:40:50 | INFO | 172.19.0.5:54894 - "GET /api HTTP/1.1" 200|
+|2023-12-19T15:40:50 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:50 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:50 | INFO | get users from the database|
+|2023-12-19T15:40:50 | INFO | 172.19.0.5:54878 - "GET /api/users HTTP/1.1" 200|
+|2023-12-19T15:40:50 | INFO | user 3 no followers|
+|2023-12-19T15:40:50 | INFO | user 3 no followings|
+|2023-12-19T15:40:50 | INFO | 172.19.0.5:54872 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:40:50 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:50 | INFO | user 3 no followers|
+|2023-12-19T15:40:50 | INFO | user 3 no followings|
+|2023-12-19T15:40:50 | INFO | 172.19.0.5:54906 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:40:50 | INFO | get user johnsnow from the database|
+|2023-12-19T15:40:50 | INFO | user 3 no followers|
+|2023-12-19T15:40:50 | INFO | user 3 no followings|
+|2023-12-19T15:40:50 | INFO | 172.19.0.5:54922 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:41:00 | INFO | get user johnsnow from the database|
+|2023-12-19T15:41:00 | INFO | user 3 no followers|
+|2023-12-19T15:41:00 | INFO | user 3 no followings|
+|2023-12-19T15:41:00 | INFO | 172.19.0.5:50672 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:41:05 | INFO | get user johnsnow from the database|
+|2023-12-19T15:41:05 | INFO | user 3 no followers|
+|2023-12-19T15:41:05 | INFO | user 3 no followings|
+|2023-12-19T15:41:05 | INFO | 172.19.0.5:50676 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:41:06 | INFO | get user johnsnow from the database|
+|2023-12-19T15:41:06 | INFO | get user johnsnow from the database|
+|2023-12-19T15:41:06 | INFO | get users from the database|
+|2023-12-19T15:41:06 | INFO | 172.19.0.5:50706 - "GET /api/users HTTP/1.1" 200|
+|2023-12-19T15:41:06 | INFO | user 3 no followers|
+|2023-12-19T15:41:06 | INFO | 172.19.0.5:50710 - "GET /api HTTP/1.1" 200|
+|2023-12-19T15:41:06 | INFO | user 3 no followings|
+|2023-12-19T15:41:06 | INFO | 172.19.0.5:50690 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:41:06 | INFO | get user johnsnow from the database|
+|2023-12-19T15:41:06 | INFO | user 3 no followers|
+|2023-12-19T15:41:06 | INFO | user 3 no followings|
+|2023-12-19T15:41:06 | INFO | 172.19.0.5:50726 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:41:06 | INFO | get user johnsnow from the database|
+|2023-12-19T15:41:06 | INFO | user 3 no followers|
+|2023-12-19T15:41:06 | INFO | user 3 no followings|
+|2023-12-19T15:41:06 | INFO | 172.19.0.5:50728 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:41:07 | INFO | get user johnsnow from the database|
+|2023-12-19T15:41:07 | INFO | user 3 no followers|
+|2023-12-19T15:41:07 | INFO | user 3 no followings|
+|2023-12-19T15:41:07 | INFO | 172.19.0.5:39802 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T15:41:20 | INFO | get user johnsnow from the database|
+|2023-12-19T15:41:20 | INFO | user 3 no followers|
+|2023-12-19T15:41:20 | INFO | user 3 no followings|
+|2023-12-19T15:41:20 | INFO | 172.19.0.5:58852 - "GET /api/users/me HTTP/1.1" 200|
+|2023-12-19T16:28:24 | INFO | 172.19.0.5:39654 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:24 | INFO | 172.19.0.5:39668 - "GET /api/users HTTP/1.1" 401|
+|2023-12-19T16:28:24 | INFO | 172.19.0.5:39676 - "GET /api HTTP/1.1" 200|
+|2023-12-19T16:28:24 | INFO | 172.19.0.5:39682 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:24 | INFO | 172.19.0.5:39684 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:24 | INFO | 172.19.0.5:39698 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:26 | INFO | 172.19.0.5:39704 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:26 | INFO | 172.19.0.5:39712 - "GET /api/tweets HTTP/1.1" 401|
+|2023-12-19T16:28:26 | INFO | 172.19.0.5:39724 - "GET /api/users HTTP/1.1" 401|
+|2023-12-19T16:28:26 | INFO | 172.19.0.5:39726 - "GET /api HTTP/1.1" 200|
+|2023-12-19T16:28:26 | INFO | 172.19.0.5:39742 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:26 | INFO | 172.19.0.5:39758 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:26 | INFO | 172.19.0.5:39768 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:27 | INFO | 172.19.0.5:39772 - "GET /api/tweets HTTP/1.1" 401|
+|2023-12-19T16:28:27 | INFO | 172.19.0.5:39780 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:27 | INFO | 172.19.0.5:39794 - "GET /api/users HTTP/1.1" 401|
+|2023-12-19T16:28:27 | INFO | 172.19.0.5:39808 - "GET /api HTTP/1.1" 200|
+|2023-12-19T16:28:27 | INFO | 172.19.0.5:39816 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:27 | INFO | 172.19.0.5:39828 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:27 | INFO | 172.19.0.5:39836 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:27 | INFO | 172.19.0.5:51342 - "GET /api/tweets HTTP/1.1" 401|
+|2023-12-19T16:28:27 | INFO | 172.19.0.5:51354 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:27 | INFO | 172.19.0.5:51356 - "GET /api/users HTTP/1.1" 401|
+|2023-12-19T16:28:27 | INFO | 172.19.0.5:51364 - "GET /api HTTP/1.1" 200|
+|2023-12-19T16:28:27 | INFO | 172.19.0.5:51366 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:27 | INFO | 172.19.0.5:51368 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:27 | INFO | 172.19.0.5:51382 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:28 | INFO | 172.19.0.5:51386 - "GET /api/tweets HTTP/1.1" 401|
+|2023-12-19T16:28:28 | INFO | 172.19.0.5:51390 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:28 | INFO | 172.19.0.5:51402 - "GET /api/users HTTP/1.1" 401|
+|2023-12-19T16:28:28 | INFO | 172.19.0.5:51410 - "GET /api HTTP/1.1" 200|
+|2023-12-19T16:28:28 | INFO | 172.19.0.5:51426 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:28 | INFO | 172.19.0.5:51434 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:28 | INFO | 172.19.0.5:51442 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:29 | INFO | 172.19.0.5:51448 - "GET /api/tweets HTTP/1.1" 401|
+|2023-12-19T16:28:29 | INFO | 172.19.0.5:51452 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:29 | INFO | 172.19.0.5:51462 - "GET /api/users HTTP/1.1" 401|
+|2023-12-19T16:28:29 | INFO | 172.19.0.5:51478 - "GET /api HTTP/1.1" 200|
+|2023-12-19T16:28:29 | INFO | 172.19.0.5:51494 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:29 | INFO | 172.19.0.5:51510 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:29 | INFO | 172.19.0.5:51526 - "GET /api/users/me HTTP/1.1" 401|
+|2023-12-19T16:28:33 | INFO | 172.19.0.1:41168 - "GET /docs HTTP/1.1" 200|
+|2023-12-19T16:28:33 | INFO | 172.19.0.1:41168 - "GET /openapi.json HTTP/1.1" 200|
+|2023-12-19T16:28:33 | INFO | 172.19.0.1:41168 - "GET /docs HTTP/1.1" 200|
+|2023-12-19T16:28:33 | INFO | 172.19.0.1:41168 - "GET /openapi.json HTTP/1.1" 200|

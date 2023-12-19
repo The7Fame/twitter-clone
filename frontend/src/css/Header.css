@@ -1,0 +1,15 @@
+.logout {
+
+  padding: 10px 1px 10px 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #a9e6f5;
+  }
+.logout__header {
+  text-align: center;
+}
+.logout_btn {
+  border-radius: 30px !important;
+  background-color: rgb(186, 67, 67) !important;
+  color: white !important;
+}

@@ -1,0 +1,41 @@
+.follower {
+  flex: 0.6;
+  border-right: 1px solid var(--twitter-background);
+  min-width: fit-content;
+}
+
+.follower__header {
+  background-color: white;
+  border: 1px solid var(--twitter-background);
+  padding: 15px 20px;
+}
+
+.follower__item {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--twitter-background);
+}
+
+.follower__info {
+  display: flex;
+  align-items: center;
+}
+
+.follower__avatar {
+  margin-right: 15px !important;
+}
+
+.follower__btn {
+  padding-top: 20px;
+  padding-right: 20px;
+  border-radius: 30px !important;
+}
+
+.follower__no {
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}

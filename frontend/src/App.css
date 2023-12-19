@@ -1,0 +1,36 @@
+.text__login {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  --twitter-color: #50b7f5;
+  --twitter-background: #e6ecf0;
+}
+a:active,
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: var(--twitter-color);
+}
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.app {
+  display: flex;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
